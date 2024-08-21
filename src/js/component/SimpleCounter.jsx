@@ -14,7 +14,7 @@ function SimpleCounter(props) {
                 <div className="seconds thousands">{props.thousandsDigit}</div>   
                 <div className="seconds hundreds">{props.hundredsDigit}</div>   
                 <div className="seconds tens">{props.tensDigit}</div>   
-                <div className="seconds ones">{props.ones}</div>   
+                <div className="seconds ones">{props.onesDigit}</div>   
             </div>
         </>
     )

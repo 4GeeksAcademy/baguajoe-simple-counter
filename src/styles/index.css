@@ -1,12 +1,24 @@
+.counter-display {
+    text-align: center;
+    background: black;
+    margin: 100px;
+    margin-bottom: 60px;
+}
 
-/* 
+.counter-display div {
+    font-size: 60px;
+    display: inline-block;
+    background: #101010;
+    color: white;
+    margin: 3px;
+    line-height: 60px;
+    padding: 10px;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.buttonContainer {
+    text-align: center;
+}
 
-*/
+button {
+    margin-left: 5px;
+}
